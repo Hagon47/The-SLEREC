@@ -1,0 +1,2304 @@
+/* DEFAULT LINK STYLES */
+.default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px
+}
+
+.default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px
+}
+
+.default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=homepage] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=homepage] .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container[data-section=homepage] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px
+}
+
+.page-container[data-section=homepage] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=homepage] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px
+}
+
+.page-container[data-section=homepage] .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container[data-section=homepage] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=homepage] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=homepage] .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=capabilities] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=capabilities] .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container[data-section=capabilities] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=capabilities] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=capabilities] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=capabilities] .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container[data-section=capabilities] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=capabilities] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=capabilities] .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=dark] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#000000, #000000), linear-gradient(#000000, #000000);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #000 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=dark] .default-link span {
+    text-decoration: none !important;
+    color: #000 !important
+}
+
+.page-container[data-section=dark] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=dark] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=dark] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=dark] .default-link:not(.disabled):focus:before {
+    border-color: #000
+}
+
+.page-container[data-section=dark] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=dark] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=dark] .default-link:visited {
+    color: #000
+}
+
+.page-container:not([data-section]) .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=expertise] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#117c96, #117c96), linear-gradient(#117c96, #117c96);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #117c96 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=expertise] .default-link span {
+    text-decoration: none !important;
+    color: #117c96 !important
+}
+
+.page-container[data-section=expertise] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=expertise] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=expertise] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=expertise] .default-link:not(.disabled):focus:before {
+    border-color: #117c96
+}
+
+.page-container[data-section=expertise] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=expertise] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=expertise] .default-link:visited {
+    color: #117c96
+}
+
+.page-container:not([data-section]) .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=gray] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#f2f2f2, #f2f2f2), linear-gradient(#f2f2f2, #f2f2f2);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #f2f2f2 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=gray] .default-link span {
+    text-decoration: none !important;
+    color: #f2f2f2 !important
+}
+
+.page-container[data-section=gray] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=gray] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=gray] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=gray] .default-link:not(.disabled):focus:before {
+    border-color: #f2f2f2
+}
+
+.page-container[data-section=gray] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=gray] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=gray] .default-link:visited {
+    color: #f2f2f2
+}
+
+.page-container:not([data-section]) .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=insights] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#4a0080, #4a0080), linear-gradient(#4a0080, #4a0080);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #4a0080 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=insights] .default-link span {
+    text-decoration: none !important;
+    color: #4a0080 !important
+}
+
+.page-container[data-section=insights] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=insights] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=insights] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=insights] .default-link:not(.disabled):focus:before {
+    border-color: #4a0080
+}
+
+.page-container[data-section=insights] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=insights] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=insights] .default-link:visited {
+    color: #4a0080
+}
+
+.page-container:not([data-section]) .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=people] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#990c47, #990c47), linear-gradient(#990c47, #990c47);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #990c47 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=people] .default-link span {
+    text-decoration: none !important;
+    color: #990c47 !important
+}
+
+.page-container[data-section=people] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=people] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=people] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=people] .default-link:not(.disabled):focus:before {
+    border-color: #990c47
+}
+
+.page-container[data-section=people] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=people] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=people] .default-link:visited {
+    color: #990c47
+}
+
+.page-container:not([data-section]) .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=contact] .default-link {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5), linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 100% 100%, 0 0;
+    background-size: 100% 1px, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=contact] .default-link span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container[data-section=contact] .default-link:not(.disabled):hover {
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=contact] .default-link:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=contact] .default-link:not(.disabled):focus {
+    background-position: 0 100%, 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=contact] .default-link:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container[data-section=contact] .default-link:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=contact] .default-link.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=contact] .default-link:visited {
+    color: #0a2fb5
+}
+
+/* DEFAULT LINK STYLES */
+.default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px
+}
+
+.default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px
+}
+
+.default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=homepage] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=homepage] .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container[data-section=homepage] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px
+}
+
+.page-container[data-section=homepage] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=homepage] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px
+}
+
+.page-container[data-section=homepage] .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container[data-section=homepage] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=homepage] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=homepage] .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=capabilities] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=capabilities] .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container[data-section=capabilities] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=capabilities] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=capabilities] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=capabilities] .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container[data-section=capabilities] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=capabilities] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=capabilities] .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=dark] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#000000, #000000), linear-gradient(#000000, #000000);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #000 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=dark] .default-link-alt span {
+    text-decoration: none !important;
+    color: #000 !important
+}
+
+.page-container[data-section=dark] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=dark] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=dark] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=dark] .default-link-alt:not(.disabled):focus:before {
+    border-color: #000
+}
+
+.page-container[data-section=dark] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=dark] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=dark] .default-link-alt:visited {
+    color: #000
+}
+
+.page-container:not([data-section]) .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=expertise] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#117c96, #117c96), linear-gradient(#117c96, #117c96);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #117c96 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=expertise] .default-link-alt span {
+    text-decoration: none !important;
+    color: #117c96 !important
+}
+
+.page-container[data-section=expertise] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=expertise] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=expertise] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=expertise] .default-link-alt:not(.disabled):focus:before {
+    border-color: #117c96
+}
+
+.page-container[data-section=expertise] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=expertise] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=expertise] .default-link-alt:visited {
+    color: #117c96
+}
+
+.page-container:not([data-section]) .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=gray] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#f2f2f2, #f2f2f2), linear-gradient(#f2f2f2, #f2f2f2);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #f2f2f2 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=gray] .default-link-alt span {
+    text-decoration: none !important;
+    color: #f2f2f2 !important
+}
+
+.page-container[data-section=gray] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=gray] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=gray] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=gray] .default-link-alt:not(.disabled):focus:before {
+    border-color: #f2f2f2
+}
+
+.page-container[data-section=gray] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=gray] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=gray] .default-link-alt:visited {
+    color: #f2f2f2
+}
+
+.page-container:not([data-section]) .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=insights] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#4a0080, #4a0080), linear-gradient(#4a0080, #4a0080);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #4a0080 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=insights] .default-link-alt span {
+    text-decoration: none !important;
+    color: #4a0080 !important
+}
+
+.page-container[data-section=insights] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=insights] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=insights] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=insights] .default-link-alt:not(.disabled):focus:before {
+    border-color: #4a0080
+}
+
+.page-container[data-section=insights] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=insights] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=insights] .default-link-alt:visited {
+    color: #4a0080
+}
+
+.page-container:not([data-section]) .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=people] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#990c47, #990c47), linear-gradient(#990c47, #990c47);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #990c47 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=people] .default-link-alt span {
+    text-decoration: none !important;
+    color: #990c47 !important
+}
+
+.page-container[data-section=people] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=people] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=people] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=people] .default-link-alt:not(.disabled):focus:before {
+    border-color: #990c47
+}
+
+.page-container[data-section=people] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=people] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=people] .default-link-alt:visited {
+    color: #990c47
+}
+
+.page-container:not([data-section]) .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container:not([data-section]) .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container:not([data-section]) .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container:not([data-section]) .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container:not([data-section]) .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+.page-container[data-section=contact] .default-link-alt {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(#0a2fb5, #0a2fb5);
+    background-position: 0 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #0a2fb5 !important;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none !important;
+    transition: background-size .35s, color .35s, margin .35s, padding .35s !important
+}
+
+.page-container[data-section=contact] .default-link-alt span {
+    text-decoration: none !important;
+    color: #0a2fb5 !important
+}
+
+.page-container[data-section=contact] .default-link-alt:not(.disabled):hover {
+    background-position: 0 100%;
+    background-size: 100% 100%;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=contact] .default-link-alt:not(.disabled):hover span {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.page-container[data-section=contact] .default-link-alt:not(.disabled):focus {
+    background-position: 0 100%;
+    padding-bottom: 2px;
+}
+
+.page-container[data-section=contact] .default-link-alt:not(.disabled):focus:before {
+    border-color: #0a2fb5
+}
+
+.page-container[data-section=contact] .default-link-alt:not(.disabled):before {
+    border: 1px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: border-color .35s
+}
+
+.page-container[data-section=contact] .default-link-alt.disabled {
+    background-image: linear-gradient(#959392, #959392);
+    background-size: 100% 1px;
+    background-position: 100% 100%;
+    color: #959392
+}
+
+.page-container[data-section=contact] .default-link-alt:visited {
+    color: #0a2fb5
+}
+
+/* HERO LINK STYLES */
+[class^="hero-link"] {
+    background: none;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0.5px;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Spezia", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    height: 40px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 8px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .56s;
+    width: auto;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+[class^="hero-link"]:after {
+    background: #ffffff;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    transition: all .35s;
+    z-index: -1;
+}
+
+[class^="hero-link"]:hover {
+    color: #ffffff;
+}
+
+[class^="hero-link"]:hover:after {
+    bottom: auto;
+    height: 0;
+    top: 0;
+}
+
+.hero-link-dark {
+    border-color: #000000;
+    color: #ffffff !important;
+}
+
+.hero-link-dark:after {
+    background-color: #000000 !important;
+}
+
+.hero-link-dark:hover {
+    color: #000000 !important;
+}
+
+.hero-link-blue {
+    border-color: #0a2fb5;
+    color: #ffffff !important;
+}
+
+.hero-link-blue:after {
+    background-color: #0a2fb5;
+}
+
+.hero-link-blue:hover {
+    color: #0a2fb5 !important;
+}
+
+.hero-link-purple {
+    border-color: #4a0080;
+    color: #ffffff !important;
+}
+
+.hero-link-purple:after {
+    background-color: #4a0080;
+}
+
+.hero-link-purple:hover {
+    color: #4a0080 !important
+}
+
+.hero-link-green {
+    border-color: #117c96;
+    color: #ffffff !important;
+}
+
+.hero-link-green:after {
+    background-color: #117c96;
+}
+
+.hero-link-green:hover {
+    color: #117c96 !important;
+}
+
+.hero-link-burgundy {
+    border-color: #990c47;
+    color: #ffffff !important;
+}
+
+.hero-link-burgundy:after {
+    background-color: #990c47;
+}
+
+.hero-link-burgundy:hover {
+    color: #990c47 !important;
+}
+
+td[title=".hero-link-dark"] div {
+    background-color: #000000;
+}
+
+td[title=".hero-link-blue"] div {
+    background-color: #0a2fb5;
+}
+
+td[title=".hero-link-purple"] div {
+    background-color: #4a0080;
+}
+
+td[title=".hero-link-green"] div {
+    background-color: #117c96;
+}
+
+td[title=".hero-link-burgundy"] div {
+    background-color: #990c47;
+}
+
+/* ANCHOR LINK STYLES */
+.anchor-link {
+    align-items: center;
+    background-image: linear-gradient(#000000, #000000);
+    background-position: 0 100%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #000000;
+    display: inline-flex;
+    font-family: "Spezia", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 0 0 8px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-size .35s;
+}
+
+.anchor-link:after {
+    background: url(images/arrow.svg) center right no-repeat;
+    content: "";
+    display: block;
+    filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+    height: 9px;
+    margin-top: -1px;
+    margin-left: 12px;
+    width: 15px;
+}
+
+.anchor-link:hover {
+    background-size: 0 1px;
+    background-position: 100% 100%;
+}
+
+/* PLAY BUTTON FROM EXISTING CONSTRUCT STYLES */
+.play-button {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    bottom: auto;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0;
+    left: auto;
+    max-height: 56px;
+    position: relative;
+    width: fit-content;
+}
+
+.play-button:before {
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: auto;
+    transition: all .35s;
+    transform: translate3d(0, 0, 0);
+}
+
+.play-button .video-embed__play-icon {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 56px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px 20px;
+}
+
+.play-button .video-embed__play-icon svg {
+    fill: #000000;
+    height: 22px;
+    width: 18px;
+}
+
+.play-button .video-embed__play-text {
+    color: #000;
+    margin-right: 20px;
+    position: relative;
+}
+
+.play-button .video-embed__play-icon:after {
+    display: none;
+}
+
+.play-button:hover:before {
+    bottom: auto;
+    height: 0;
+    top: 0;
+}
+
+.play-button:hover .video-embed__play-icon svg {
+    fill: #ffffff;
+}
+
+.play-button:hover .video-embed__play-text {
+    color: #ffffff;
+}
+
+/* STAND ALONE PLAY BUTTON STYLES */
+.play-button-stand-alone {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    bottom: auto;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: "Spezia", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    gap: 0;
+    left: auto;
+    height: 56px;
+    padding: 0 27px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 56px;
+
+    @media (min-width: 768px) {
+        padding: 0 20px 0 54px;
+        width: 160px;
+    }
+}
+
+.play-button-stand-alone:after {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIGlkPSJMYXllcl8xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNMTI4LDk2djMyMGwyNTYtMTYwTDEyOCw5NkwxMjgsOTZ6Ii8+PC9nPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px;
+    color: #000;
+    content: "";
+    padding: 27px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+
+    @media (min-width: 768px) {
+        background-position: 17px 50%;
+        padding: 21px 20px 20px 64px;
+        content: "Play Video";
+    }
+}
+
+.play-button-stand-alone:hover:after {
+    filter: invert(1.0);
+}
+
+.play-button-stand-alone:before {
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: auto;
+    transition: all .35s;
+    transform: translate3d(0, 0, 0);
+}
+
+.play-button-stand-alone:hover:before {
+    bottom: auto;
+    height: 0;
+    top: 0;
+}

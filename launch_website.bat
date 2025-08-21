@@ -1,0 +1,6 @@
+@echo off
+echo Opening Russell Reynolds Associates website...
+start "" "http://localhost:8000"
+echo Starting local server...
+cd /d "%~dp0"
+powershell -Command "& {Start-Process powershell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -Command "cd \"%~dp0\"; python -m http.server 8000"' -Verb RunAs}"

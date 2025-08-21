@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russell Reynolds Associates - Website Launcher</title>
+    <style>
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0A2FB5;
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0A2FB5;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #081d6e;
+        }
+        .logo {
+            max-width: 200px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://mss-p-053.stylelabs.cloud/api/public/content/rra-logo-pride?v=8fbee55d" alt="Russell Reynolds Associates Logo" class="logo">
+        <h1>Welcome to Russell Reynolds Associates</h1>
+        <p>This launcher will help you access the Russell Reynolds website from your local files.</p>
+        <p><strong>Note:</strong> When you click the button below, you'll see the website's navigation menu. This is normal and indicates the website is loading correctly.</p>
+        <a href="www.russellreynolds.com/en/index.html" class="btn">Launch Website</a>
+        <p style="margin-top: 20px; font-size: 0.9rem;">If you only see the menu and not the full website, try accessing <a href="http://localhost:8000/www.russellreynolds.com/en/index.html" style="color: #0A2FB5;">this direct link</a> instead.</p>
+    </div>
+</body>
+</html>
